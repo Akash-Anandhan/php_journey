@@ -52,6 +52,8 @@
         } ?>
         only <?= $students[0]; ?> is a naughty boy
     </p>
+<!--this block is how to write a funnction in php
+in this case ive written a funtioon to filter the s_daata array based on the gender -->
 <?php
     function filterbygender($array, $gender){
         $FilteredArray = [];
