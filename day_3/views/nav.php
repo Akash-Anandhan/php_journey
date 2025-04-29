@@ -9,8 +9,8 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                         <a href="/" class="<?= currpage('/') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white'; ?>rounded-md px-3 py-2 text-sm font-medium text-white " aria-current="page">Home</a>
-                        <a href="../about.php" class=" <?= currpage('/about.php') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white';?>rounded-md px-3 py-2 text-sm font-medium text-white">About Us</a>
-                        <a href="../contact.php" class=" <?= currpage('/contact.php') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white';?>rounded-md px-3 py-2 text-sm font-medium text-white ">Contact</a>
+                        <a href="about" class=" <?= currpage('about') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white';?>rounded-md px-3 py-2 text-sm font-medium text-white">About Us</a>
+                        <a href="contact" class=" <?= currpage('contact') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white';?>rounded-md px-3 py-2 text-sm font-medium text-white ">Contact</a>
                     </div>
                 </div>
             </div>
